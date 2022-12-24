@@ -1,0 +1,15 @@
+.item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.item p {
+  color: white;
+}

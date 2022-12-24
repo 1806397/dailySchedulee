@@ -1,0 +1,35 @@
+.headerbody {
+  background-color: rgb(75, 26, 148);
+  width: 100%;
+  border-radius: 20px;
+}
+
+.contentStructure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headingColor {
+  color: white;
+}
+
+.headerbody button {
+  display: flex;
+  background-color: rgb(172, 152, 206);
+  align-items: center;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px rgb(61, 41, 90) solid;
+}
+.headerbody button:hover,
+.headerbody button:disabled,
+.headerbody button:active {
+  background-color: rgb(191, 165, 232);
+  height: 50px;
+  border-radius: 20px;
+  border: 1px rgb(61, 41, 90) solid;
+}
+.headerbody button:disabled {
+  cursor: not-allowed;
+}

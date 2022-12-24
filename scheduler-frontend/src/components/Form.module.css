@@ -1,0 +1,35 @@
+div {
+  margin: 10px;
+}
+.formcontrol input,
+.formcontrol label {
+  display: block;
+  width: 15rem;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: white;
+}
+.buttonProps {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 2px;
+}
+button {
+  background-color: rgb(172, 152, 206);
+  height: 30px;
+  border-radius: 20px;
+  margin: 2px;
+  margin-bottom: 10px;
+  border: 1px rgb(61, 41, 90) solid;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+button:hover,
+button:active,
+button:disabled {
+  background-color: rgb(191, 165, 232);
+}
+.formcontrol p {
+  color: red;
+}

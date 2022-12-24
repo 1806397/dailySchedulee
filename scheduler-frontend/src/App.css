@@ -1,0 +1,10 @@
+.app {
+  background-color: rgb(75, 26, 148);
+  width: 40%;
+  margin: 3rem auto;
+  border-radius: 20px;
+}
+h1 {
+  text-align: center;
+  color: rgb(27, 6, 58);
+}
