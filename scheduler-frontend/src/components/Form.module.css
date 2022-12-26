@@ -15,12 +15,13 @@ div {
   margin-bottom: 2px;
 }
 button {
-  background-color: rgb(172, 152, 206);
+  /* background-color: rgb(172, 152, 206); */
   height: 30px;
   border-radius: 20px;
   margin: 2px;
   margin-bottom: 10px;
   border: 1px rgb(61, 41, 90) solid;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 button:disabled {
   cursor: not-allowed;
@@ -28,7 +29,8 @@ button:disabled {
 button:hover,
 button:active,
 button:disabled {
-  background-color: rgb(191, 165, 232);
+  /* background-color: rgb(191, 165, 232); */
+  box-shadow: inset 100px 0 0 0 rgb(191, 165, 232);
 }
 .formcontrol p {
   color: red;
