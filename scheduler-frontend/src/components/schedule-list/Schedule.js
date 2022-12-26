@@ -5,7 +5,11 @@ const Schedule = () => {
   const data = useSelector((state) => state.schedule.data);
   return (
     <section className={classes.sch}>
-      <h2>Your schedule for today</h2>
+      {data.length ? (
+        <h2>Your schedule for today</h2>
+      ) : (
+        <h2>No schedule for today </h2>
+      )}
       <ul>
         {data.map((scheduleData) => (
           <ScheduleList
